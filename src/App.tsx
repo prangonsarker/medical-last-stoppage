@@ -1,5 +1,6 @@
 import { Hero } from "./components/Hero";
 import { TrustBar } from "./components/TrustBar";
+import { CourseVideo } from "./components/CourseVideo";
 import { Services } from "./components/Services";
 import { Gallery } from "./components/Gallery";
 import { RegistrationSection } from "./components/RegistrationSection";
@@ -15,16 +16,19 @@ export default function App() {
       {/* 2. Auto Scrolling Trust Bar */}
       <TrustBar />
 
-      {/* 3. Course Services */}
+      {/* 3. Course Overview Video */}
+      <CourseVideo />
+
+      {/* 4. Course Services */}
       <Services />
 
-      {/* 4. Course Gallery */}
+      {/* 5. Course Gallery */}
       <Gallery />
 
-      {/* 5. Registration */}
+      {/* 6. Registration */}
       <RegistrationSection />
 
-      {/* 6. Footer */}
+      {/* 7. Footer */}
       <Footer />
 
       {/* Floating WhatsApp Quick Action */}

@@ -1,12 +1,13 @@
-export function applySEO(configData: any) {
-  if (!configData) return;
+import { content } from '../content';
 
-  const seo = configData.seo || {};
-  const theme = configData.theme || {};
-  const courseName = configData.courseName || configData.hero?.courseName || "Medical Last Stoppage";
+export function applySEO() {
+  const seo = (content as any).seo || {};
+  const theme = (content as any).theme || {};
+  const courseName = content.hero?.titleMain || (content.hero as any)?.courseName || "Medical Last Stoppage";
+
 
   const title = seo.title ? `${seo.title} | ${courseName}` : `${courseName} & Mentorship Program`;
-  const description = seo.description || configData.hero?.description || "Medical Admission প্রার্থীদের জন্য একটি পূর্ণাঙ্গ Mentorship Program।";
+  const description = seo.description || content.hero?.description || "Medical Admission প্রার্থীদের জন্য একটি পূর্ণাঙ্গ Mentorship Program।";
   const keywords = Array.isArray(seo.keywords) ? seo.keywords.join(", ") : (seo.keywords || "Medical, Admission, Mentorship, Bangladesh");
   const canonicalUrl = seo.canonicalUrl || "https://medicalstoppage.com";
   const ogImage = seo.openGraphImage || "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=1600";
@@ -62,3 +63,4 @@ export function applySEO(configData: any) {
   setMeta("name", "twitter:description", description);
   setMeta("name", "twitter:image", ogImage);
 }
+

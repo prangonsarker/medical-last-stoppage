@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import { motion } from "motion/react";
-import { config } from "../config";
+import { content } from "../content";
 import { Check } from "lucide-react";
+
 
 function calculateTimeLeft(deadline?: string) {
   if (!deadline) {
@@ -37,7 +38,8 @@ function TimeUnit({ value, label }: { value: number; label: string }) {
 }
 
 export function Hero() {
-  const { hero, deadline } = config;
+  const hero = content.hero;
+  const deadline = content.hero.deadline;
   const [timeLeft, setTimeLeft] = useState(() => calculateTimeLeft(deadline));
 
   useEffect(() => {
@@ -77,9 +79,10 @@ export function Hero() {
             className="space-y-2 w-full"
           >
             <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white tracking-tighter leading-[1.02] select-none">
-              Medical Last Stoppagess
+              {hero.titleMain}
               <span className="text-red-500 inline-block font-sans ml-0.5 select-none">.</span>
             </h1>
+
 
             {hero.titleSub && (
               <div className="text-xl sm:text-3xl md:text-4xl font-bold text-neutral-400 tracking-tight pt-1">
@@ -98,7 +101,7 @@ export function Hero() {
             transition={{ duration: 0.5, delay: 0.15, ease: "easeOut" }}
             className="text-base sm:text-xl md:text-2xl font-bold tracking-wide text-red-400/90 flex items-center gap-2"
           >
-            <span>{hero.tagline || "Knowledgesss • Guidance • Success"}</span>
+            <span>{hero.tagline || "Knowledge • Guidance • Success"}</span>
           </motion.div>
 
           <motion.p 

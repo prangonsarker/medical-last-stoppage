@@ -48,7 +48,7 @@ export const config = {
       "২৪/৭ টেলিগ্রাম সাপোর্ট",
       "পার্সোনালাইজড রুটিন"
     ],
-    preBookPrice: data.pricing?.preBookPrice || 2500,
+    preBookPrice: data.pricing?.preBookPrice || 250000,
     regularPrice: data.pricing?.regularPrice || 5000
   },
 

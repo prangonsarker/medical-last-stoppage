@@ -1,11 +1,14 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import { config } from "../config";
+import { content } from "../content";
 import { MessageCircle } from "lucide-react";
 
 export function FloatingWhatsApp() {
   const [isVisible, setIsVisible] = useState(false);
-  const whatsappUrl = config.contact?.whatsapp || (config as any).registration?.primaryCta?.url || "https://wa.me/8801700000000";
+  const whatsappUrl = content.contact.whatsapp;
+  const tooltip = content.floatingWhatsApp.tooltip;
+  const ariaLabel = content.floatingWhatsApp.ariaLabel;
+
 
   useEffect(() => {
     const handleScroll = () => {
@@ -38,7 +41,7 @@ export function FloatingWhatsApp() {
           whileTap={{ scale: 0.95 }}
           transition={{ type: "spring", stiffness: 300, damping: 20 }}
           className="fixed bottom-6 right-6 z-50 flex items-center justify-center w-14 h-14 rounded-full bg-[#25D366] text-black shadow-[0_4px_25px_rgba(37,211,102,0.5)] hover:shadow-[0_6px_30px_rgba(37,211,102,0.7)] transition-shadow group focus:outline-none focus:ring-4 focus:ring-[#25D366]/40"
-          aria-label="WhatsApp-এ যোগাযোগ করুন"
+          aria-label={ariaLabel}
         >
           {/* Animated pulse ring */}
           <span className="absolute inset-0 rounded-full bg-[#25D366] animate-ping opacity-30 pointer-events-none" />
@@ -47,8 +50,9 @@ export function FloatingWhatsApp() {
 
           {/* Tooltip on desktop hover */}
           <span className="absolute right-16 top-1/2 -translate-y-1/2 whitespace-nowrap bg-black/90 text-white text-xs font-semibold px-3 py-1.5 rounded-lg border border-white/10 opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none shadow-lg">
-            হোয়াটসঅ্যাপে মেসেজ করুন
+            {tooltip}
           </span>
+
         </motion.a>
       )}
     </AnimatePresence>

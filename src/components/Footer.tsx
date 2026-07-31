@@ -1,22 +1,22 @@
-import { config } from "../config";
+import { content } from "../content";
 import { Send, MessageCircle, Youtube, Facebook, Mail } from "lucide-react";
 
 export function Footer() {
-  const footerData = (config as any).footer || {};
-  const currentYear = new Date().getFullYear();
+  const footerData = content.footer;
 
-  const courseName = config.courseName || "Medical Last Stoppage";
-  const logo = (config as any).theme?.logo || "/logo.png";
-  const description = footerData.description || config.description || config.tagline || "Medical Admission প্রার্থীদের জন্য একটি পূর্ণাঙ্গ Mentorship Program।";
+  const courseName = footerData.courseName;
+  const logo = content.theme.logo;
+  const description = footerData.description;
   
-  const telegram = config.contact?.telegram || (config as any).registration?.secondaryCta?.url || "https://t.me/medical_stoppage";
-  const whatsapp = config.contact?.whatsapp || (config as any).registration?.primaryCta?.url || "https://wa.me/8801700000000";
-  const email = config.contact?.email;
+  const telegram = content.contact.telegram;
+  const whatsapp = content.contact.whatsapp;
+  const email = content.contact.email;
 
-  const facebook = (config as any).social?.facebook || config.socialLinks?.facebook;
-  const youtube = (config as any).social?.youtube || config.socialLinks?.youtube;
+  const facebook = content.social.facebook;
+  const youtube = content.social.youtube;
 
-  const copyrightText = footerData.copyright || `© ${currentYear} Medical Last Stoppage. All rights reserved.`;
+  const copyrightText = footerData.copyright;
+
 
   return (
     <footer className="border-t border-white/10 bg-[#030303] py-16 px-6 md:px-12 lg:px-24 mt-20 text-neutral-300">

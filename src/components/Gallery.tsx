@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { config } from "../config";
+import { content } from "../content";
 import { Section } from "./Section";
 
 export interface GalleryItem {
@@ -11,12 +11,13 @@ export interface GalleryItem {
 }
 
 export function Gallery() {
-  const galleryList: GalleryItem[] = Array.isArray(config.gallery) ? config.gallery : [];
+  const galleryList: GalleryItem[] = content.gallery;
 
   if (!galleryList || galleryList.length === 0) return null;
 
-  const sectionTitle = (config as any).gallerySection?.title || (config as any).sectionTitles?.gallery || "কোর্সের কিছু ঝলক";
-  const sectionSubtitle = (config as any).gallerySection?.subtitle || "কোর্স, স্টাডি ম্যাটেরিয়াল ও প্রস্তুতির কিছু মুহূর্ত";
+  const sectionTitle = content.gallerySection.title;
+  const sectionSubtitle = content.gallerySection.subtitle;
+
 
   return (
     <Section id="gallery" title={sectionTitle} subtitle={sectionSubtitle}>

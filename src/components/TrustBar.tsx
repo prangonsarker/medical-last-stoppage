@@ -1,22 +1,12 @@
 import { motion } from "motion/react";
+import { content } from "../content";
 
 export function TrustBar() {
   const items = [
-    "Students Got Chance Under My Mentorship",
-    "RMC",
-    "DMC",
-    "SSMC",
-    "KMC",
-    "SHSMC",
-    "MAMC",
-    "AFMC",
-    "DU",
-    "JU",
-    "RU",
-    "CU",
-    "SUST",
-    "BUET"
+    content.trustBar.title,
+    ...(content.trustBar.institutions || [])
   ];
+
 
   // Repeat items multiple times for smooth infinite ticker
   const tickerItems = [...items, ...items, ...items, ...items];

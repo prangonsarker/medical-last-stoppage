@@ -1,0 +1,338 @@
+export const content = {
+  hero: {
+    courseName: "Medical Last Stoppage",
+    titleMain: "Medical Last Stoppage",
+    titleSub: "& Mentorship Program",
+    tagline: "Knowledge • Guidance • Success",
+    description: "Medical Admission প্রার্থীদের জন্য একটি পূর্ণাঙ্গ Mentorship Program। সঠিক গাইডেন্স, প্রিমিয়াম স্টাডি ম্যাটেরিয়াল এবং সার্বক্ষণিক সাপোর্টের মাধ্যমে নিজের প্রস্তুতিকে করো ১০০% নিশ্চিত।",
+    badge: "🔥 Medical Admission ২০২৬",
+    buttons: {
+      primaryPreBook: "প্রি-বুক করুন",
+      primaryRegular: "রেজিস্ট্রেশন করুন",
+      secondary: "কোর্সের বিস্তারিত",
+      primaryTarget: "#registration",
+      secondaryTarget: "#services"
+    },
+    seatIndicator: {
+      title: "মাত্র ১৫০ জন",
+      subtitle1: "ছোট ব্যাচ",
+      subtitle2: "সেরা মেন্টরশিপ"
+    },
+    pricingCard: {
+      preBookBadge: "🔥 সীমিত সময়ের প্রি-বুকিং",
+      preBookClosedBadge: "প্রি-বুকিং শেষ",
+      saveText: "সাশ্রয়",
+      currentFeeText: "বর্তমান কোর্স ফি"
+    },
+    highlights: [
+      "পূর্ণাঙ্গ মেডিকেল প্রস্তুতি",
+      "পার্সোনাল মেন্টরশিপ",
+      "প্রাইভেট Telegram গ্রুপ",
+      "মাত্র ১৫০ জন শিক্ষার্থী"
+    ],
+    preBookPrice: 1549,
+    regularPrice: 2099,
+    deadline: "2026-08-15T23:59:59Z"
+  },
+
+  trustBar: {
+    title: "Students Got Chance Under My Mentorship",
+    institutions: [
+      "RMC",
+      "DMC",
+      "SSMC",
+      "KMC",
+      "SHSMC",
+      "MAMC",
+      "AFMC",
+      "DU",
+      "JU",
+      "RU",
+      "CU",
+      "SUST"
+    ]
+  },
+
+  courseVideo: {
+    title: "কোর্স সম্পর্কে আরও জানুন",
+    subtitle: "ভর্তি হওয়ার আগে ভিডিওটি দেখে নিন",
+    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+  },
+
+  servicesSection: {
+    title: "আমাদের সার্ভিসসমূহ",
+    subtitle: "প্রস্তুতির প্রতিটি ধাপে থাকবে সেরা সাপোর্ট"
+  },
+
+  services: [
+    {
+      badge: "01",
+      title: "মেডিকেল কোর সাবজেক্ট প্রস্তুতি",
+      icon: "BookOpen",
+      items: [
+        "Biology Full Syllabus (Gold Preparation)",
+        "Chemistry Full Syllabus (Gold Preparation)",
+        "English (Gold Preparation)"
+      ]
+    },
+    {
+      badge: "02",
+      title: "ক্লাস ও এক্সাম",
+      icon: "Video",
+      items: [
+        "৫০+ টপ এনালাইজড রেকর্ডেড ক্লাস (Telegram)",
+        "৩টি লাইভ সেশন",
+        "মেডিকেল স্ট্যান্ডার্ড Chapter-wise Potential Question Sheet",
+        "Top 2000 Questions (Previous Batch-এ প্রায় ৮৫% কমন এসেছিল)",
+        "এডমিশনের এক মাস আগে Summary ভিত্তিক বিশেষ ক্লাস"
+      ]
+    },
+    {
+      badge: "03",
+      title: "ওয়ান-টু-ওয়ান মেন্টরশিপ",
+      icon: "Users",
+      items: [
+        "প্রাঙ্গন ভাইয়ার সরাসরি মেন্টরশিপ (Google Meet / Zoom) [শর্ত প্রযোজ্য]",
+        "Constant Guideline",
+        "Academic Support",
+        "Non-Academic Support"
+      ]
+    },
+    {
+      badge: "04",
+      title: "ইউনিক স্টাডি ম্যাটেরিয়াল",
+      icon: "FileText",
+      items: [
+        "এক মেইন বইয়ে সকল Basic + Extra Information",
+        "Lecture Sheet",
+        "Brain Booster Card",
+        "Biology Chart"
+      ]
+    },
+    {
+      badge: "05",
+      title: "মিলিটারি গ্রেড রুটিন সিস্টেম",
+      icon: "Calendar",
+      items: [
+        "Notion App-এর মাধ্যমে পারফেক্ট রুটিন",
+        "Task Tracker (তুমি চাইলেও না পড়ে থাকতে পারবে না)"
+      ]
+    },
+    {
+      badge: "06",
+      title: "স্পেশাল ফিচার",
+      icon: "Sparkles",
+      items: [
+        "মাত্র ১৫০ জনের Premium Community",
+        "ছোট গ্রুপ, বেশি কেয়ার",
+        "Instant Solution",
+        "Proper Guideline"
+      ]
+    }
+  ],
+
+  notice: {
+    title: "গুরুত্বপূর্ণ ঘোষণা",
+    paragraphs: [
+      "কোর্সটি শুধুমাত্র Private Telegram Group-এর মাধ্যমে পরিচালিত হবে।",
+      "মাত্র ১৫০ জন শিক্ষার্থী এই ব্যাচে যুক্ত হতে পারবে।",
+      "১৫০ জন পূর্ণ হয়ে গেলে নতুন কাউকে যুক্ত করা হবে না।"
+    ]
+  },
+
+  gallerySection: {
+    title: "কোর্সের কিছু ঝলক",
+    subtitle: "কোর্স, ক্লাস, স্টাডি ম্যাটেরিয়াল এবং প্রস্তুতির কিছু বাস্তব মুহূর্ত"
+  },
+
+  gallery: [
+    {
+      title: "বায়োলজি হাই-ইল্ড ডায়াগ্রাম নোটস",
+      category: "বায়োলজি",
+      description: "উদ্ভিদবিজ্ঞান ও প্রাণীবিজ্ঞানের জটিল টপিক সহজভাবে মনে রাখার বিশেষ ডায়াগ্রাম নোটস।",
+      image: "https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&q=80&w=800",
+      alt: "Biology Diagram Notes"
+    },
+    {
+      title: "কোষ ও এর গঠন স্পেশাল ক্লাস",
+      category: "বায়োলজি",
+      description: "মেডিকেল ভর্তি পরীক্ষার জন্য অত্যন্ত গুরুত্বপূর্ণ বায়োলজি টপিক অ্যানালাইসিস।",
+      image: "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=800",
+      alt: "Cell Biology Class"
+    },
+    {
+      title: "জৈব রসায়ন শর্টকাট নোটস",
+      category: "রসায়ন",
+      description: "জৈব যৌগের নামকরণ ও বিক্রিয়ার সহজ কৌশল সংবলিত বিশেষ হ্যান্ডনোট।",
+      image: "https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?auto=format&fit=crop&q=80&w=800",
+      alt: "Chemistry Organic Notes"
+    },
+    {
+      title: "রসায়নের পর্যায়বৃত্ত ধর্ম মাস্টারক্লাস",
+      category: "রসায়ন",
+      description: "মৌলের পর্যায়বৃত্ত ধর্ম ও রাসায়নিক বন্ধনের টেকনিক্যাল নোটস।",
+      image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&q=80&w=800",
+      alt: "Chemistry Class"
+    },
+    {
+      title: "মেডিকেল ভর্তি কোশ্চেন ব্যাংক",
+      category: "স্টাডি ম্যাটেরিয়াল",
+      description: "গত ২০ বছরের মেডিকেল ভর্তি পরীক্ষার ব্যাখ্যাসহ প্রশ্ন সমাধান গাইড।",
+      image: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&q=80&w=800",
+      alt: "Medical Question Bank"
+    },
+    {
+      title: "ব্রেইন বুস্টার স্পেশাল ফ্ল্যাশকার্ড",
+      category: "স্টাডি ম্যাটেরিয়াল",
+      description: "দ্রুত রিভিশন ও গুরুত্বপূর্ণ তথ্য মনে রাখার বিশেষ টেকনিক্যাল কার্ড।",
+      image: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?auto=format&fit=crop&q=80&w=800",
+      alt: "Brain Booster Card"
+    },
+    {
+      title: "সাপ্তাহিক Zoom লাইভ মেন্টরশিপ",
+      category: "লাইভ ক্লাস",
+      description: "মেন্টরের সাথে সরাসরি ইন্টার‍্যাক্টিভ প্রশ্ন-উত্তর ও গাইডলাইন সেশন।",
+      image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=800",
+      alt: "Zoom Live Guidance"
+    },
+    {
+      title: "লাইভ ডাউট সলভিং সেশন",
+      category: "লাইভ ক্লাস",
+      description: "শিক্ষার্থীদের কঠিন প্রশ্নের সরাসরি গাইডেন্স এবং টেকনিক্যাল সল্যুশন।",
+      image: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&q=80&w=800",
+      alt: "Live Doubt Solving"
+    },
+    {
+      title: "মিলিটারি গ্রেড Notion ডেইলি রুটিন",
+      category: "রুটিন",
+      description: "প্রতিদিনের পড়া মনিটরিং ও সময় ব্যবস্থাপনার ডিজিটাল ট্র্যাকার।",
+      image: "https://images.unsplash.com/photo-1484480974693-6ca0a78f1014?auto=format&fit=crop&q=80&w=800",
+      alt: "Study Routine Tracker"
+    },
+    {
+      title: "প্রাইভেট Telegram গাইডেন্স গ্রুপ",
+      category: "কমিউনিটি",
+      description: "২৪/৭ সাপোর্ট ও মেডিকেল ভর্তিচ্ছু বন্ধুদের সাথে সক্রিয় স্টাডি গ্রুপ।",
+      image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800",
+      alt: "Private Telegram Group"
+    }
+  ],
+
+  registrationSection: {
+    title: "আজই আপনার আসন নিশ্চিত করুন",
+    subtitle: "সহজ ৩ ধাপে সম্পন্ন করুন আপনার রেজিস্ট্রেশন"
+  },
+
+  registration: {
+    title: "আজই আপনার আসন নিশ্চিত করুন",
+    subtitle: "সহজ ৩ ধাপে সম্পন্ন করুন আপনার রেজিস্ট্রেশন",
+    preBookPrice: 1549,
+    regularPrice: 2099,
+    currency: "৳",
+    deadline: "2026-08-15T23:59:59Z",
+    offerBadge: "🔥 বিশেষ প্রি-বুকিং অফার",
+    regularBadge: "রেজিস্ট্রেশন চলছে",
+    offerEndText: "অফারের সময় শেষ হতে বাকি",
+    primaryCta: {
+      text: "WhatsApp-এ মেসেজ দিন",
+      url: "https://wa.me/8801700000000"
+    },
+    secondaryCta: {
+      text: "Telegram-এ যুক্ত হন",
+      url: "https://t.me/medical_stoppage"
+    },
+    admissionStepsTitle: "ভর্তির ৩টি সহজ ধাপ",
+    admissionSteps: [
+      {
+        num: "১",
+        title: "ধাপ ১: মেসেজ দিন",
+        desc: "হোয়াটসঅ্যাপ অথবা টেলিগ্রামে সরাসরি মেসেজ পাঠান।"
+      },
+      {
+        num: "২",
+        title: "ধাপ ২: ফি পরিশোধ",
+        desc: "কোর্সের তথ্য জেনে নিয়ে বিকাশ/নগদে ফি পরিশোধ করুন।"
+      },
+      {
+        num: "৩",
+        title: "ধাপ ৩: গ্রুপ অ্যাক্সেস",
+        desc: "ভর্তি নিশ্চিত হতেই প্রাইভেট টেলিগ্রাম গ্রুপে যুক্ত হোন।"
+      }
+    ]
+  },
+
+  mentor: {
+    name: "Prangon Sarker",
+    credentials: [
+      "Rajshahi Medical College",
+      "Ex. Chittagong Army Medical College",
+      "Ex. SUST (Genetic Engineering & Biotechnology)"
+    ],
+    intro: "আমি প্রাঙ্গণ সরকার। নিজের ভর্তি পরীক্ষার অভিজ্ঞতার আলোকে আমি এমন একটি Mentorship Program তৈরি করেছি যা একজন মেডিকেল ভর্তিচ্ছুকে সঠিক পথ দেখাবে। আমার লক্ষ্য শুধু পড়ানো নয়, বরং প্রতিটি শিক্ষার্থীকে তার কাঙ্ক্ষিত লক্ষ্যে পৌঁছাতে মানসিক ও একাডেমিকভাবে প্রস্তুত করা।",
+    image: "https://images.unsplash.com/photo-1612349317150-e410f624c427?auto=format&fit=crop&q=80&w=800&h=1000"
+  },
+
+  faq: [
+    {
+      question: "এই প্রোগ্রামটি কাদের জন্য?",
+      answer: "এই প্রোগ্রামটি মূলত HSC পরীক্ষার্থী এবং সেকেন্ড-টাইম ভর্তিচ্ছুদের জন্য, যাদের লক্ষ্য বাংলাদেশের সরকারি মেডিকেল কলেজগুলো।"
+    },
+    {
+      question: "ক্লাসগুলো কি লাইভ নাকি রেকর্ডেড?",
+      answer: "আমরা দুটোই সরবরাহ করি। তুমি রেকর্ডেড কনসেপ্ট ক্লাস এবং সাপ্তাহিক লাইভ মেন্টরশিপ/ডাউট-সলভিং Zoom সেশনের অ্যাক্সেস পাবে।"
+    },
+    {
+      question: "আমি কি পরে প্যাকেজ আপগ্রেড করতে পারব?",
+      answer: "হ্যাঁ, তুমি যেকোনো সময় বাকি টাকা পেমেন্ট করে অনলাইন মেন্টরশিপ থেকে প্রিমিয়াম প্রোগ্রামে আপগ্রেড করতে পারবে।"
+    },
+    {
+      question: "মক টেস্টগুলো কীভাবে দিব?",
+      answer: "আমাদের বিশেষ OMR-ভিত্তিক ওয়েব প্ল্যাটফর্মে মক টেস্ট নেওয়া হয়, যা আসল পরীক্ষার হুবহু সময় ও নেগেティブ মার্কিং অনুসরণ করে।"
+    }
+  ],
+
+  contact: {
+    telegram: "https://t.me/medical_stoppage",
+    whatsapp: "https://wa.me/8801700000000",
+    email: "contact@medicalstoppage.com"
+  },
+
+  social: {
+    facebook: "https://facebook.com/medicalstoppage",
+    youtube: "https://youtube.com/medicalstoppage"
+  },
+
+  footer: {
+    courseName: "Medical Last Stoppage",
+    description: "Medical Admission প্রার্থীদের জন্য একটি পূর্ণাঙ্গ Mentorship Program। সঠিক গাইডেন্স, প্রিমিয়াম স্টাডি ম্যাটেরিয়াল এবং সার্বক্ষণিক সাপোর্টের মাধ্যমে নিজের প্রস্তুতিকে করো ১০০% নিশ্চিত।",
+    copyright: "© 2026 Medical Last Stoppage. All rights reserved.",
+    whatsappText: "WhatsApp",
+    telegramText: "Telegram"
+  },
+
+  floatingWhatsApp: {
+    tooltip: "হোয়াটসঅ্যাপে মেসেজ করুন",
+    ariaLabel: "WhatsApp-এ যোগাযোগ করুন"
+  },
+
+  theme: {
+    primaryColor: "#000000",
+    accentColor: "#ff2a44",
+    background: "#000000",
+    logo: "/logo.png"
+  },
+
+  seo: {
+    title: "Medical Last Stoppage",
+    description: "Medical Admission প্রার্থীদের জন্য একটি পূর্ণাঙ্গ Mentorship Program। সঠিক গাইডেন্স, প্রিমিয়াম স্টাডি ম্যাটেরিয়াল এবং সার্বক্ষণিক সাপোর্টের মাধ্যমে নিজের প্রস্তুতিকে করো ১০০% নিশ্চিত।",
+    keywords: [
+      "Medical",
+      "Admission",
+      "Mentorship",
+      "Bangladesh"
+    ],
+    openGraphImage: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=1600",
+    favicon: "/favicon.ico",
+    canonicalUrl: "https://medicalstoppage.com"
+  }
+};

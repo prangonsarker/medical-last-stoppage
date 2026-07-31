@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion } from "motion/react";
-import { config } from "../config";
+import { content } from "../content";
 import { Section } from "./Section";
 import { Clock, Sparkles, MessageCircle, Send, CheckCircle2 } from "lucide-react";
 
@@ -39,8 +39,8 @@ function TimeUnit({ value, label }: { value: number; label: string }) {
 }
 
 export function RegistrationSection() {
-  const reg = (config as any).registration || {};
-  const deadline = reg.deadline || config.deadline || "2026-08-15T23:59:59Z";
+  const reg = content.registration;
+  const deadline = reg.deadline;
 
   const [timeLeft, setTimeLeft] = useState(() => calculateTimeLeft(deadline));
 
@@ -53,37 +53,21 @@ export function RegistrationSection() {
 
   const isExpired = timeLeft.isExpired;
 
-  const preBookPrice = Number(reg.preBookPrice ?? 1549);
-  const regularPrice = Number(reg.regularPrice ?? 2099);
-  const currency = reg.currency || "৳";
+  const preBookPrice = Number(reg.preBookPrice);
+  const regularPrice = Number(reg.regularPrice);
+  const currency = reg.currency;
   const savedAmount = Math.max(0, regularPrice - preBookPrice);
 
-  const mainTitle = reg.title || "ভর্তি তথ্য ও রেজিস্ট্রেশন";
+  const mainTitle = reg.title;
+  const subtitle = reg.subtitle;
 
-  // Primary & Secondary CTA links
-  const whatsappUrl = reg.primaryCta?.url || config.contact?.whatsapp || "https://wa.me/8801700000000";
-  const telegramUrl = reg.secondaryCta?.url || config.contact?.telegram || "https://t.me/medical_stoppage";
+  const whatsappUrl = reg.primaryCta.url;
+  const telegramUrl = reg.secondaryCta.url;
 
-  const admissionSteps = [
-    {
-      num: "১",
-      title: "ধাপ ১: মেসেজ দিন",
-      desc: "হোয়াটসঅ্যাপ অথবা টেলিগ্রামে সরাসরি মেসেজ পাঠান।",
-    },
-    {
-      num: "২",
-      title: "ধাপ ২: ফি পরিশোধ",
-      desc: "কোর্সের তথ্য জেনে নিয়ে বিকাশ/নগদে ফি পরিশোধ করুন।",
-    },
-    {
-      num: "৩",
-      title: "ধাপ ৩: গ্রুপ অ্যাক্সেস",
-      desc: "ভর্তি নিশ্চিত হতেই প্রাইভেট টেলিগ্রাম গ্রুপে যুক্ত হোন।",
-    },
-  ];
+  const admissionSteps = reg.admissionSteps;
 
   return (
-    <Section id="registration" title={mainTitle} subtitle="সহজ ৩ ধাপে সম্পন্ন করুন আপনার রেজিস্ট্রেশন">
+    <Section id="registration" title={mainTitle} subtitle={subtitle}>
       <div className="max-w-4xl mx-auto space-y-10">
         
         {/* Main Price & Countdown Card */}
@@ -100,7 +84,7 @@ export function RegistrationSection() {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent/15 border border-accent/30 text-accent text-xs sm:text-sm font-bold uppercase tracking-wider">
             <Sparkles className="w-4 h-4" />
-            {isExpired ? "রেজিস্ট্রেশন চলছে" : "🔥 বিশেষ প্রি-বুকিং অফার"}
+            {isExpired ? reg.regularBadge : reg.offerBadge}
           </div>
 
           {/* Pricing */}
@@ -138,7 +122,7 @@ export function RegistrationSection() {
             <div className="pt-2 pb-4 border-t border-white/10 max-w-lg mx-auto">
               <p className="text-sm sm:text-base text-neutral-300 font-semibold mb-4 flex items-center justify-center gap-2">
                 <Clock className="w-4 h-4 text-accent" />
-                অফারের সময় শেষ হতে বাকি
+                {reg.offerEndText}
               </p>
               <div className="grid grid-cols-4 gap-2 sm:gap-4 max-w-md mx-auto">
                 <TimeUnit value={timeLeft.days} label="দিন" />
@@ -158,7 +142,7 @@ export function RegistrationSection() {
               className="flex items-center justify-center gap-2.5 w-full sm:w-auto px-8 py-4 rounded-xl font-bold text-base sm:text-lg bg-[#25D366] text-black hover:bg-[#20bd5a] transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5"
             >
               <MessageCircle className="w-5 h-5 shrink-0 fill-current" />
-              <span>WhatsApp-এ মেসেজ দিন</span>
+              <span>{reg.primaryCta.text}</span>
             </a>
 
             <a
@@ -168,7 +152,7 @@ export function RegistrationSection() {
               className="flex items-center justify-center gap-2.5 w-full sm:w-auto px-8 py-4 rounded-xl font-bold text-base sm:text-lg bg-[#0088cc] text-white hover:bg-[#0077b3] transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5"
             >
               <Send className="w-5 h-5 shrink-0" />
-              <span>Telegram-এ যুক্ত হন</span>
+              <span>{reg.secondaryCta.text}</span>
             </a>
           </div>
         </motion.div>
@@ -182,7 +166,7 @@ export function RegistrationSection() {
           className="space-y-4"
         >
           <h3 className="text-xl sm:text-2xl font-bold text-white text-center mb-6">
-            ভর্তির ৩টি সহজ ধাপ
+            {reg.admissionStepsTitle}
           </h3>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -208,3 +192,4 @@ export function RegistrationSection() {
     </Section>
   );
 }
+

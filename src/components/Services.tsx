@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { config } from "../config";
+import { content } from "../content";
 import { Section } from "./Section";
 import { Check, Sparkles, BookOpen, Video, Users, FileText, Calendar, AlertCircle } from "lucide-react";
 
@@ -13,18 +13,11 @@ const ICON_MAP: Record<string, any> = {
 };
 
 export function Services() {
-  const serviceList = Array.isArray(config.services) ? config.services : [];
-  const sectionTitle = config.sectionTitles?.services || "আমাদের সার্ভিসসমূহ";
-  const sectionSubtitle = "প্রস্তুতির প্রতিটি ধাপে থাকবে সেরা সাপোর্ট";
+  const serviceList = content.services;
+  const sectionTitle = content.servicesSection.title;
+  const sectionSubtitle = content.servicesSection.subtitle;
+  const noticeData = content.notice;
 
-  const noticeData = (config as any).notice || {
-    title: "গুরুত্বপূর্ণ ঘোষণা",
-    paragraphs: [
-      "কোর্সটি শুধুমাত্র Private Telegram Group-এর মাধ্যমে পরিচালিত হবে।",
-      "মাত্র ১৫০ জন শিক্ষার্থী এই ব্যাচে যুক্ত হতে পারবে।",
-      "১৫০ জন পূর্ণ হয়ে গেলে নতুন কাউকে যুক্ত করা হবে না।"
-    ]
-  };
 
   if (!serviceList || serviceList.length === 0) return null;
 
