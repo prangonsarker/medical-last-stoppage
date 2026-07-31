@@ -77,7 +77,7 @@ export function Hero() {
             className="space-y-2 w-full"
           >
             <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white tracking-tighter leading-[1.02] select-none">
-              Medical Last Stoppage
+              Medical Last Stoppagess
               <span className="text-red-500 inline-block font-sans ml-0.5 select-none">.</span>
             </h1>
 
@@ -98,7 +98,7 @@ export function Hero() {
             transition={{ duration: 0.5, delay: 0.15, ease: "easeOut" }}
             className="text-base sm:text-xl md:text-2xl font-bold tracking-wide text-red-400/90 flex items-center gap-2"
           >
-            <span>{hero.tagline || "Knowledge • Guidance • Success"}</span>
+            <span>{hero.tagline || "Knowledgesss • Guidance • Success"}</span>
           </motion.div>
 
           <motion.p 

@@ -29,7 +29,7 @@ export function FinalCTA() {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent/10 border border-accent/20 text-accent text-xs sm:text-sm font-semibold uppercase tracking-wider">
             <Sparkles className="w-4 h-4" />
-            Medical Last Stoppage
+            Medical Last Stoppagessss
           </div>
 
           {/* Heading */}
