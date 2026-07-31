@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --color-accent: #ff2a44;
+  --color-accent-dark: #d91b34;
+  --font-sans: "Inter", "Hind Siliguri", sans-serif;
+  
+  --color-glass: rgba(255, 255, 255, 0.03);
+  --color-glass-border: rgba(255, 255, 255, 0.08);
+  --color-glass-hover: rgba(255, 255, 255, 0.05);
+}
+
+@layer utilities {
+  .glass-card {
+    @apply bg-[var(--color-glass)] backdrop-blur-xl border border-[var(--color-glass-border)] rounded-2xl;
+  }
+  .glass-card-hover {
+    @apply hover:bg-[var(--color-glass-hover)] transition-colors duration-300;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #050505; /* Matte black */
+  color: #f0f0f0;
+}

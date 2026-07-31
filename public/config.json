@@ -1,0 +1,612 @@
+{
+  "hero": {
+    "courseName": "Medical Last Stoppage",
+    "tagline": "Knowledge • Guidance • Success",
+    "description": "Medical Admission প্রার্থীদের জন্য একটি পূর্ণাঙ্গ Mentorship Program। সঠিক গাইডেন্স, প্রিমিয়াম স্টাডি ম্যাটেরিয়াল এবং সার্বক্ষণিক সাপোর্টের মাধ্যমে নিজের প্রস্তুতিকে করো ১০০% নিশ্চিত।",
+    "heroBadge": "🔥 Medical Admission ২০২৬",
+    "heroButtons": {
+      "primaryPreBook": "প্রি-বুক করুন",
+      "primaryRegular": "রেজিস্ট্রেশন করুন",
+      "secondary": "কোর্সের বিস্তারিত",
+      "primaryTarget": "#registration",
+      "secondaryTarget": "#services"
+    },
+    "backgroundImage": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=1600",
+    "heroBanner": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=1600",
+    "titleMain": "Medical Last Stoppage",
+    "titleSub": "& Mentorship Program",
+    "seatIndicator": {
+      "title": "মাত্র ১৫০ জন",
+      "subtitle1": "ছোট ব্যাচ",
+      "subtitle2": "সেরা মেন্টরশিপ"
+    },
+    "pricingCard": {
+      "preBookBadge": "🔥 সীমিত সময়ের প্রি-বুকিং",
+      "preBookClosedBadge": "প্রি-বুকিং শেষ",
+      "saveText": "সাশ্রয়",
+      "currentFeeText": "বর্তমান কোর্স ফি"
+    },
+    "highlights": [
+      "পূর্ণাঙ্গ মেডিকেল প্রস্তুতি",
+      "পার্সোনাল মেন্টরশিপ",
+      "প্রাইভেট Telegram গ্রুপ",
+      "মাত্র ১৫০ জন শিক্ষার্থী"
+    ]
+  },
+  "pricing": {
+    "preBookPrice": 1549,
+    "regularPrice": 2099,
+    "currency": "৳",
+    "deadline": "2026-08-15T23:59:59Z",
+    "limitedSeats": 150,
+    "highlightText": "Most Popular",
+    "countdownLabels": [
+      "Days",
+      "Hours",
+      "Mins",
+      "Secs"
+    ],
+    "plans": [
+      {
+        "id": "mentorship",
+        "title": "অনলাইন মেন্টরশিপ",
+        "price": "৳ ২,৫০০",
+        "features": [
+          "২৪/৭ Telegram সাপোর্ট",
+          "পার্সোনালাইজড রুটিন",
+          "চ্যাপ্টার-ভিত্তিক সাজেশন",
+          "সাপ্তাহিক Zoom গাইডলাইন"
+        ]
+      },
+      {
+        "id": "premium",
+        "title": "প্রিমিয়াম প্রোগ্রাম",
+        "price": "৳ ৫,০০০",
+        "isPopular": true,
+        "features": [
+          "মেন্টরশিপের সবকিছু",
+          "৫০+ স্ট্যান্ডার্ড মক টেস্ট",
+          "প্রিন্টেড কোশ্চেন ব্যাংক",
+          "ওয়ান-টু-ওয়ান কাউন্সেলিং"
+        ]
+      }
+    ]
+  },
+  "countdown": {
+    "deadline": "2026-08-15T23:59:59Z"
+  },
+  "mentor": {
+    "name": "Prangon Sarker",
+    "credentials": [
+      "Rajshahi Medical College",
+      "Ex. Chittagong Army Medical College",
+      "Ex. SUST (Genetic Engineering & Biotechnology)"
+    ],
+    "intro": "আমি প্রাঙ্গণ সরকার। নিজের ভর্তি পরীক্ষার অভিজ্ঞতার আলোকে আমি এমন একটি Mentorship Program তৈরি করেছি যা একজন মেডিকেল ভর্তিচ্ছুকে সঠিক পথ দেখাবে। আমার লক্ষ্য শুধু পড়ানো নয়, বরং প্রতিটি শিক্ষার্থীকে তার কাঙ্ক্ষিত লক্ষ্যে পৌঁছাতে মানসিক ও একাডেমিকভাবে প্রস্তুত করা।",
+    "image": "https://images.unsplash.com/photo-1612349317150-e410f624c427?auto=format&fit=crop&q=80&w=800&h=1000"
+  },
+  "services": [
+    {
+      "badge": "01",
+      "title": "মেডিকেল কোর সাবজেক্ট প্রস্তুতি",
+      "icon": "BookOpen",
+      "items": [
+        "Biology Full Syllabus (Gold Preparation)",
+        "Chemistry Full Syllabus (Gold Preparation)",
+        "English (Gold Preparation)"
+      ]
+    },
+    {
+      "badge": "02",
+      "title": "ক্লাস ও এক্সাম",
+      "icon": "Video",
+      "items": [
+        "৫০+ টপ এনালাইজড রেকর্ডেড ক্লাস (Telegram)",
+        "৩টি লাইভ সেশন",
+        "মেডিকেল স্ট্যান্ডার্ড Chapter-wise Potential Question Sheet",
+        "Top 2000 Questions (Previous Batch-এ প্রায় ৮৫% কমন এসেছিল)",
+        "এডমিশনের এক মাস আগে Summary ভিত্তিক বিশেষ ক্লাস"
+      ]
+    },
+    {
+      "badge": "03",
+      "title": "ওয়ান-টু-ওয়ান মেন্টরশিপ",
+      "icon": "Users",
+      "items": [
+        "প্রাঙ্গন ভাইয়ার সরাসরি মেন্টরশিপ (Google Meet / Zoom) [শর্ত প্রযোজ্য]",
+        "Constant Guideline",
+        "Academic Support",
+        "Non-Academic Support"
+      ]
+    },
+    {
+      "badge": "04",
+      "title": "ইউনিক স্টাডি ম্যাটেরিয়াল",
+      "icon": "FileText",
+      "items": [
+        "এক মেইন বইয়ে সকল Basic + Extra Information",
+        "Lecture Sheet",
+        "Brain Booster Card",
+        "Biology Chart"
+      ]
+    },
+    {
+      "badge": "05",
+      "title": "মিলিটারি গ্রেড রুটিন সিস্টেম",
+      "icon": "Calendar",
+      "items": [
+        "Notion App-এর মাধ্যমে পারফেক্ট রুটিন",
+        "Task Tracker (তুমি চাইলেও না পড়ে থাকতে পারবে না)"
+      ]
+    },
+    {
+      "badge": "06",
+      "title": "স্পেশাল ফিচার",
+      "icon": "Sparkles",
+      "items": [
+        "মাত্র ১৫০ জনের Premium Community",
+        "ছোট গ্রুপ, বেশি কেয়ার",
+        "Instant Solution",
+        "Proper Guideline"
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "title": "বায়োলজি হাই-ইল্ড ডায়াগ্রাম নোটস",
+      "category": "বায়োলজি",
+      "description": "উদ্ভিদবিজ্ঞান ও প্রাণীবিজ্ঞানের জটিল টপিক সহজভাবে মনে রাখার বিশেষ ডায়াগ্রাম নোটস।",
+      "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&q=80&w=800",
+      "alt": "Biology Diagram Notes"
+    },
+    {
+      "title": "কোষ ও এর গঠন স্পেশাল ক্লাস",
+      "category": "বায়োলজি",
+      "description": "মেডিকেল ভর্তি পরীক্ষার জন্য অত্যন্ত গুরুত্বপূর্ণ বায়োলজি টপিক অ্যানালাইসিস।",
+      "image": "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=800",
+      "alt": "Cell Biology Class"
+    },
+    {
+      "title": "জৈব রসায়ন শর্টকাট নোটস",
+      "category": "রসায়ন",
+      "description": "জৈব যৌগের নামকরণ ও বিক্রিয়ার সহজ কৌশল সংবলিত বিশেষ হ্যান্ডনোট।",
+      "image": "https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?auto=format&fit=crop&q=80&w=800",
+      "alt": "Chemistry Organic Notes"
+    },
+    {
+      "title": "রসায়নের পর্যায়বৃত্ত ধর্ম মাস্টারক্লাস",
+      "category": "রসায়ন",
+      "description": "মৌলের পর্যায়বৃত্ত ধর্ম ও রাসায়নিক বন্ধনের টেকনিক্যাল নোটস।",
+      "image": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&q=80&w=800",
+      "alt": "Chemistry Class"
+    },
+    {
+      "title": "মেডিকেল ভর্তি কোশ্চেন ব্যাংক",
+      "category": "স্টাডি ম্যাটেরিয়াল",
+      "description": "গত ২০ বছরের মেডিকেল ভর্তি পরীক্ষার ব্যাখ্যাসহ প্রশ্ন সমাধান গাইড।",
+      "image": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&q=80&w=800",
+      "alt": "Medical Question Bank"
+    },
+    {
+      "title": "ব্রেইন বুস্টার স্পেশাল ফ্ল্যাশকার্ড",
+      "category": "স্টাডি ম্যাটেরিয়াল",
+      "description": "দ্রুত রিভিশন ও গুরুত্বপূর্ণ তথ্য মনে রাখার বিশেষ টেকনিক্যাল কার্ড।",
+      "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?auto=format&fit=crop&q=80&w=800",
+      "alt": "Brain Booster Card"
+    },
+    {
+      "title": "সাপ্তাহিক Zoom লাইভ মেন্টরশিপ",
+      "category": "লাইভ ক্লাস",
+      "description": "মেন্টরের সাথে সরাসরি ইন্টার‍্যাক্টিভ প্রশ্ন-উত্তর ও গাইডলাইন সেশন।",
+      "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=800",
+      "alt": "Zoom Live Guidance"
+    },
+    {
+      "title": "লাইভ ডাউট সলভিং সেশন",
+      "category": "লাইভ ক্লাস",
+      "description": "শিক্ষার্থীদের কঠিন প্রশ্নের সরাসরি গাইডেন্স এবং টেকনিক্যাল সল্যুশন।",
+      "image": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&q=80&w=800",
+      "alt": "Live Doubt Solving"
+    },
+    {
+      "title": "মিলিটারি গ্রেড Notion ডেইলি রুটিন",
+      "category": "রুটিন",
+      "description": "প্রতিদিনের পড়া মনিটরিং ও সময় ব্যবস্থাপনার ডিজিটাল ট্র্যাকার।",
+      "image": "https://images.unsplash.com/photo-1484480974693-6ca0a78f1014?auto=format&fit=crop&q=80&w=800",
+      "alt": "Study Routine Tracker"
+    },
+    {
+      "title": "প্রাইভেট Telegram গাইডেন্স গ্রুপ",
+      "category": "কমিউনিটি",
+      "description": "২৪/৭ সাপোর্ট ও মেডিকেল ভর্তিচ্ছু বন্ধুদের সাথে সক্রিয় স্টাডি গ্রুপ।",
+      "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800",
+      "alt": "Private Telegram Group"
+    }
+  ],
+  "videos": [
+    {
+      "title": "ওরিয়েন্টেশন ক্লাস ২০২৬",
+      "description": "ওরিয়েন্টেশন ক্লাস ২০২৬",
+      "youtubeUrl": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "thumbnail": "https://img.youtube.com/vi/M7lc1UVf-VE/maxresdefault.jpg",
+      "displayOrder": 1,
+      "id": "M7lc1UVf-VE"
+    },
+    {
+      "title": "বায়োলজি মাস্টারক্লাস",
+      "description": "বায়োলজি মাস্টারক্লাস",
+      "youtubeUrl": "https://www.youtube.com/watch?v=EngW7tCbLhU",
+      "thumbnail": "https://img.youtube.com/vi/EngW7tCbLhU/maxresdefault.jpg",
+      "displayOrder": 2,
+      "id": "EngW7tCbLhU"
+    }
+  ],
+  "statistics": {
+    "recordedClasses": "৫০+",
+    "liveSessions": "৩+",
+    "mcqCount": "২০০০+",
+    "studentLimit": 150
+  },
+  "faq": [
+    {
+      "question": "এই প্রোগ্রামটি কাদের জন্য?",
+      "answer": "এই প্রোগ্রামটি মূলত HSC পরীক্ষার্থী এবং সেকেন্ড-টাইম ভর্তিচ্ছুদের জন্য, যাদের লক্ষ্য বাংলাদেশের সরকারি মেডিকেল কলেজগুলো।"
+    },
+    {
+      "question": "ক্লাসগুলো কি লাইভ নাকি রেকর্ডেড?",
+      "answer": "আমরা দুটোই সরবরাহ করি। তুমি রেকর্ডেড কনসেপ্ট ক্লাস এবং সাপ্তাহিক লাইভ মেন্টরশিপ/ডাউট-সলভিং Zoom সেশনের অ্যাক্সেস পাবে।"
+    },
+    {
+      "question": "আমি কি পরে প্যাকেজ আপগ্রেড করতে পারব?",
+      "answer": "হ্যাঁ, তুমি যেকোনো সময় বাকি টাকা পেমেন্ট করে অনলাইন মেন্টরশিপ থেকে প্রিমিয়াম প্রোগ্রামে আপগ্রেড করতে পারবে।"
+    },
+    {
+      "question": "মক টেস্টগুলো কীভাবে দিব?",
+      "answer": "আমাদের বিশেষ OMR-ভিত্তিক ওয়েব প্ল্যাটফর্মে মক টেস্ট নেওয়া হয়, যা আসল পরীক্ষার হুবহু সময় ও নেগেটিভ মার্কিং অনুসরণ করে।"
+    }
+  ],
+  "notice": {
+    "title": "গুরুত্বপূর্ণ ঘোষণা",
+    "paragraphs": [
+      "এই কোর্সটি শুধুমাত্র Private Telegram Group-এর মাধ্যমে পরিচালিত হবে।",
+      "মাত্র ১৫০ জন শিক্ষার্থী এই ব্যাচে যুক্ত হওয়ার সুযোগ পাবে।",
+      "আসন পূর্ণ হয়ে গেলে নতুন কাউকে যুক্ত করা সম্ভব হবে না।"
+    ]
+  },
+  "contact": {
+    "telegram": "https://t.me/medical_stoppage",
+    "whatsapp": "https://wa.me/8801700000000",
+    "email": "contact@medicalstoppage.com"
+  },
+  "seo": {
+    "title": "Medical Last Stoppage",
+    "description": "Medical Admission প্রার্থীদের জন্য একটি পূর্ণাঙ্গ Mentorship Program। সঠিক গাইডেন্স, প্রিমিয়াম স্টাডি ম্যাটেরিয়াল এবং সার্বক্ষণিক সাপোর্টের মাধ্যমে নিজের প্রস্তুতিকে করো ১০০% নিশ্চিত।",
+    "keywords": [
+      "Medical",
+      "Admission",
+      "Mentorship",
+      "Bangladesh"
+    ],
+    "openGraphImage": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=1600",
+    "favicon": "/favicon.ico",
+    "canonicalUrl": "https://medicalstoppage.com"
+  },
+  "theme": {
+    "primaryColor": "#000000",
+    "accentColor": "#ff2a44",
+    "background": "#000000",
+    "logo": "/logo.png"
+  },
+  "social": {
+    "facebook": "https://facebook.com/medicalstoppage",
+    "youtube": "https://youtube.com/medicalstoppage"
+  },
+  "finalCTA": {
+    "heading": "আপনার স্বপ্নের মেডিকেল যাত্রা এখান থেকেই শুরু হতে পারে",
+    "description": "দেরি না করে আজই যোগাযোগ করুন এবং আপনার আসন নিশ্চিত করুন।",
+    "primaryBtnText": "💬 হোয়াটসঅ্যাপে যোগাযোগ করুন",
+    "secondaryBtnText": "📢 টেলিগ্রামে যুক্ত হন"
+  },
+  "footer": {
+    "description": "Medical Admission প্রার্থীদের জন্য একটি পূর্ণাঙ্গ Mentorship Program। সঠিক গাইডেন্স, প্রিমিয়াম স্টাডি ম্যাটেরিয়াল এবং সার্বক্ষণিক সাপোর্টের মাধ্যমে নিজের প্রস্তুতিকে করো ১০০% নিশ্চিত।",
+    "copyright": "© Medical Last Stoppage. All rights reserved."
+  },
+  "promoVideo": {
+    "title": "Course Introduction",
+    "subtitle": "Medical Last Stoppage & Mentorship Program-এ কী কী থাকছে তা জানতে এই ছোট ভিডিওটি দেখুন।",
+    "videoId": "M7lc1UVf-VE",
+    "note": "▶ কোর্সে যুক্ত হওয়ার আগে ভিডিওটি অবশ্যই দেখে নিন।"
+  },
+  "aboutCourse": {
+    "title": "কেন Medical Last Stoppage?",
+    "description": "Medical Admission শিক্ষার্থীদের জন্য এটি একটি পূর্ণাঙ্গ Mentorship Program, যেখানে গোছানো প্রস্তুতি, পার্সোনাল গাইডেন্স, প্রিমিয়াম স্টাডি ম্যাটেরিয়ালস, রিভিশন স্ট্র্যাটেজি এবং সার্বক্ষণিক সাপোর্টের মাধ্যমে একজন শিক্ষার্থীকে সাফল্যের চূড়ান্ত শিখরে পৌঁছে দেওয়ার লক্ষ্য নিয়ে কাজ করা হয়।"
+  },
+  "features": [
+    {
+      "icon": "Stethoscope",
+      "title": "পূর্ণাঙ্গ মেডিকেল প্রস্তুতি",
+      "description": "মেডিকেল ভর্তি পরীক্ষার সিলেবাস অনুযায়ী সম্পূর্ণ গোছানো ও নিখুঁত প্রস্তুতি।"
+    },
+    {
+      "icon": "UserCheck",
+      "title": "পার্সোনাল মেন্টরশিপ",
+      "description": "প্রত্যেক শিক্ষার্থীর জন্য আলাদা গাইডেন্স এবং পারফরম্যান্স ট্র্যাকিং।"
+    },
+    {
+      "icon": "BookOpen",
+      "title": "প্রিমিয়াম স্টাডি ম্যাটেরিয়ালস",
+      "description": "টপ র‍্যাঙ্কারদের তৈরি করা হাই-ইল্ড নোটস, PDF এবং এক্সক্লুসিভ ম্যাটেরিয়ালস।"
+    },
+    {
+      "icon": "Video",
+      "title": "রেকর্ডেড ক্লাসেস",
+      "description": "যেকোনো সময় যেকোনো টপিক রিভিশন দেওয়ার জন্য প্রিমিয়াম রেকর্ডেড ক্লাস।"
+    },
+    {
+      "icon": "MonitorPlay",
+      "title": "লাইভ সেশন",
+      "description": "নিয়মিত Zoom এবং Google Meet-এর মাধ্যমে প্রবলেম সলভিং ও গাইডেন্স।"
+    },
+    {
+      "icon": "MessageCircle",
+      "title": "সার্বক্ষণিক Telegram সাপোর্ট",
+      "description": "যেকোনো ডাউট বা প্রশ্নের দ্রুত সমাধানের জন্য প্রাইভেট Telegram সাপোর্ট।"
+    }
+  ],
+  "snapshot": {
+    "title": "একনজরে কোর্সটিতে যা থাকছে",
+    "items": [
+      "Biology",
+      "Chemistry",
+      "English",
+      "Live Classes",
+      "Recorded Classes",
+      "Mentorship"
+    ]
+  },
+  "stats": [
+    {
+      "label": "Top Recorded Classes",
+      "value": "50+"
+    },
+    {
+      "label": "Live Sessions",
+      "value": "3"
+    },
+    {
+      "label": "High Quality MCQs",
+      "value": "2000+"
+    },
+    {
+      "label": "Maximum Students",
+      "value": "150"
+    }
+  ],
+  "whatYouGet": {
+    "title": "আপনি যা যা পাচ্ছেন",
+    "items": [
+      {
+        "icon": "Book",
+        "title": "একাডেমিক প্রস্তুতি",
+        "shortDesc": "মেডিকেল ভর্তি পরীক্ষার জন্য সবচেয়ে গুরুত্বপূর্ণ বিষয়গুলোর পূর্ণাঙ্গ প্রস্তুতি।",
+        "features": [
+          "সম্পূর্ণ Biology Full Syllabus",
+          "সম্পূর্ণ Chemistry Full Syllabus",
+          "সম্পূর্ণ English Preparation"
+        ],
+        "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&q=80&w=800",
+        "imageAlt": "Academic Preparation"
+      },
+      {
+        "icon": "PlayCircle",
+        "title": "ক্লাস ও পরীক্ষা",
+        "shortDesc": "রেকর্ডেড ক্লাস, লাইভ সেশন এবং এক্সক্লুসিভ স্টাডি ম্যাটেরিয়াল।",
+        "features": [
+          "৫০+ টপ এনালাইজড রেকর্ডেড ক্লাস",
+          "৩টি লাইভ সেশন",
+          "চ্যাপ্টারভিত্তিক পটেনশিয়াল প্রশ্ন",
+          "টপ ২০০০ MCQ",
+          "সামারি ভিত্তিক বিশেষ ক্লাস"
+        ],
+        "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=800",
+        "imageAlt": "Classes"
+      },
+      {
+        "icon": "PhoneCall",
+        "title": "ব্যক্তিগত মেন্টরশিপ",
+        "shortDesc": "প্রত্যেক শিক্ষার্থীর জন্য আলাদা গাইডেন্স এবং সাপোর্ট।",
+        "features": [
+          "Call Your Mentor",
+          "Google Meet / Zoom",
+          "কনস্ট্যান্ট গাইডলাইন",
+          "একাডেমিক ও নন-একাডেমিক সাপোর্ট"
+        ],
+        "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800",
+        "imageAlt": "Mentorship"
+      },
+      {
+        "icon": "Library",
+        "title": "স্টাডি ম্যাটেরিয়াল",
+        "shortDesc": "সেরা প্রস্তুতির জন্য প্রয়োজনীয় সব স্টাডি হ্যাকস এবং নোটস।",
+        "features": [
+          "মেইন বই",
+          "Lecture Sheet",
+          "Brain Booster Card",
+          "Biology Chart"
+        ],
+        "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&q=80&w=800",
+        "imageAlt": "Study Materials"
+      },
+      {
+        "icon": "CalendarCheck",
+        "title": "মিলিটারি গ্রেড রুটিন",
+        "shortDesc": "প্রতিদিনের পড়া মনিটর করার জন্য স্পেশাল ট্র্যাকিং সিস্টেম।",
+        "features": [
+          "Notion Routine",
+          "Task Tracker",
+          "দৈনিক অগ্রগতি",
+          "ধারাবাহিক মনিটরিং"
+        ],
+        "image": "https://images.unsplash.com/photo-1484480974693-6ca0a78f1014?auto=format&fit=crop&q=80&w=800",
+        "imageAlt": "Routine"
+      },
+      {
+        "icon": "Star",
+        "title": "বিশেষ সুবিধা",
+        "shortDesc": "নির্দিষ্ট সংখ্যক শিক্ষার্থীদের জন্য স্পেশাল এনভায়রনমেন্ট।",
+        "features": [
+          "Private Telegram Group",
+          "মাত্র ১৫০ জন",
+          "Instant Solution",
+          "Proper Guideline"
+        ],
+        "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=800",
+        "imageAlt": "Community"
+      }
+    ]
+  },
+  "mentors": [
+    {
+      "name": "ডাঃ রাকিব হাসান",
+      "college": "ঢাকা মেডিকেল কলেজ",
+      "image": "https://images.unsplash.com/photo-1612349317150-e410f624c427?auto=format&fit=crop&q=80&w=400&h=400"
+    },
+    {
+      "name": "ডাঃ সুমাইয়া বিনতে",
+      "college": "স্যার সলিমুল্লাহ মেডিকেল কলেজ",
+      "image": "https://images.unsplash.com/photo-1594824436998-058d01f66138?auto=format&fit=crop&q=80&w=400&h=400"
+    },
+    {
+      "name": "ডাঃ নাঈম ইসলাম",
+      "college": "শহীদ সোহরাওয়ার্দী মেডিকেল কলেজ",
+      "image": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&q=80&w=400&h=400"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "প্রথম ধাপ: বেসিক বিল্ড-আপ",
+      "title": "প্রথম ২ মাস",
+      "description": "কোর সিলেবাস কভার করা এবং মূল কনসেপ্টের দুর্বলতাগুলো চিহ্নিত করা।"
+    },
+    {
+      "date": "দ্বিতীয় ধাপ: কোশ্চেন সলভিং",
+      "title": "পরবর্তী ১ মাস",
+      "description": "বিগত বছরের প্রশ্ন, ট্রিকস এবং হাই-ইল্ড টপিকগুলোতে ফোকাস করা।"
+    },
+    {
+      "date": "তৃতীয় ধাপ: ফাইনাল মক",
+      "title": "শেষ ১৫ দিন",
+      "description": "প্রতিদিন স্ট্যান্ডার্ড মডেল টেস্টের মাধ্যমে আসল পরীক্ষার পরিবেশ তৈরি করা।"
+    }
+  ],
+  "buttons": {
+    "primary": "রেজিস্ট্রেশন করুন",
+    "secondary": "বিস্তারিত দেখুন"
+  },
+  "sectionTitles": {
+    "services": "আমাদের সেবাসমূহ",
+    "mentors": "সেরা মেন্টরদের থেকে শিখুন",
+    "stats": "আমাদের অর্জন",
+    "timeline": "কোর্সের সময়সূচি",
+    "gallery": "সাফল্যের ঝলক",
+    "videos": "আমাদের ক্লাস দেখুন",
+    "pricing": "ভবিষ্যতের জন্য বিনিয়োগ",
+    "faq": "সাধারণ জিজ্ঞাসা (FAQ)"
+  },
+  "gallerySection": {
+    "title": "কোর্সের কিছু ঝলক",
+    "subtitle": "কোর্স, ক্লাস, স্টাডি ম্যাটেরিয়াল এবং প্রস্তুতির কিছু বাস্তব মুহূর্ত"
+  },
+  "galleryCategories": [
+    "সব",
+    "বায়োলজি",
+    "রসায়ন",
+    "স্টাডি ম্যাটেরিয়াল",
+    "লাইভ ক্লাস",
+    "রুটিন",
+    "কমিউনিটি"
+  ],
+  "studyMaterialsSection": {
+    "title": "স্টাডি ম্যাটেরিয়াল",
+    "subtitle": "মেডিকেল ভর্তি প্রস্তুতির জন্য প্রয়োজনীয় সব স্টাডি হ্যাকস এবং বিশেষ ম্যাটেরিয়ালস",
+    "items": [
+      {
+        "title": "মেইন বই",
+        "description": "কনসেপ্ট ক্লিয়ারিং এবং হাই-ইল্ড লাইন হাইলাইট করা মেইন বুক গাইডেন্স।",
+        "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&q=80&w=800"
+      },
+      {
+        "title": "Lecture Sheet",
+        "description": "চ্যাপ্টার ভিত্তিক শর্টকাট, সামারি ও স্পেশাল লেকচার শিট।",
+        "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?auto=format&fit=crop&q=80&w=800"
+      },
+      {
+        "title": "Brain Booster Card",
+        "description": "দ্রুত রিভিশন ও কঠিন বিষয় সহজে মনে রাখার স্মার্ট ফ্ল্যাশকার্ড।",
+        "image": "https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?auto=format&fit=crop&q=80&w=800"
+      },
+      {
+        "title": "Biology Chart",
+        "description": "একনজরে জীববিজ্ঞানের গুরুত্বপূর্ণ চিত্র, ছক ও শ্রেণীবিন্যাস।",
+        "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&q=80&w=800"
+      }
+    ]
+  },
+  "courseVideoSection": {
+    "title": "কোর্স সম্পর্কে আরও জানুন",
+    "subtitle": "ভর্তি হওয়ার আগে ভিডিওটি দেখে নিন",
+    "youtubeUrl": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+    "videoId": "M7lc1UVf-VE"
+  },
+  "admissionProcess": {
+    "title": "কীভাবে ভর্তি হবেন?",
+    "steps": [
+      {
+        "step": 1,
+        "title": "ধাপ ১",
+        "description": "হোয়াটসঅ্যাপ অথবা টেলিগ্রামে যোগাযোগ করুন।",
+        "icon": "MessageSquare"
+      },
+      {
+        "step": 2,
+        "title": "ধাপ ২",
+        "description": "আপনার প্রশ্ন থাকলে জেনে নিন এবং ভর্তি প্রক্রিয়া সম্পন্ন করুন।",
+        "icon": "HelpCircle"
+      },
+      {
+        "step": 3,
+        "title": "ধাপ ৩",
+        "description": "ভর্তি নিশ্চিত হওয়ার পর Private Telegram Group-এর অ্যাক্সেস পাবেন।",
+        "icon": "Send"
+      },
+      {
+        "step": 4,
+        "title": "ধাপ ৪",
+        "description": "নির্ধারিত সময় অনুযায়ী ক্লাস ও মেন্টরশিপ শুরু করুন।",
+        "icon": "GraduationCap"
+      }
+    ]
+  },
+  "registration": {
+    "title": "আজই আপনার আসন নিশ্চিত করুন",
+    "countdownTitle": "প্রি-বুকিং শেষ হতে বাকি",
+    "preBookPrice": 1549,
+    "regularPrice": 2099,
+    "currency": "৳",
+    "deadline": "2026-08-15T23:59:59Z",
+    "preBookBtnText": "এখনই প্রি-বুক করুন",
+    "regularBtnText": "এখনই ভর্তি হোন",
+    "primaryCta": {
+      "text": "💬 হোয়াটসঅ্যাপে যোগাযোগ করুন",
+      "url": "https://wa.me/8801700000000"
+    },
+    "secondaryCta": {
+      "text": "📢 টেলিগ্রামে যুক্ত হন",
+      "url": "https://t.me/medical_stoppage"
+    }
+  },
+  "finalMotivation": {
+    "title": "এখন সিদ্ধান্ত নেওয়ার সময়",
+    "description": "আপনার স্বপ্নের মেডিকেল কলেজে ভর্তির যাত্রায় সঠিক দিকনির্দেশনা ও পরিকল্পিত প্রস্তুতি আপনাকে এগিয়ে রাখবে। আজই আপনার আসন নিশ্চিত করুন।"
+  }
+}
