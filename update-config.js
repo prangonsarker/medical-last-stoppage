@@ -3,7 +3,7 @@ import fs from 'fs';
 const configData = JSON.parse(fs.readFileSync('public/config.json', 'utf8'));
 
 configData.gallerySection = {
-  title: "কোর্সের কিছু ঝলক",
+  title: "কোর্সের কিছু পলক",
   subtitle: "কোর্স, ক্লাস, স্টাডি ম্যাটেরিয়াল এবং প্রস্তুতির কিছু বাস্তব মুহূর্ত"
 };
 
