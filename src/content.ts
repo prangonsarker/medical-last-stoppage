@@ -1,7 +1,7 @@
 export const content = {
   hero: {
     courseName: "Medical Last Stoppage",
-    titleMain: "Medical Last Stoppage",
+    titleMain: "Medical Last Stoppagess",
     titleSub: "& Mentorship Program",
     tagline: "Knowledge • Guidance • Success",
     description: "Medical Admission প্রার্থীদের জন্য একটি পূর্ণাঙ্গ Mentorship Program। সঠিক গাইডেন্স, প্রিমিয়াম স্টাডি ম্যাটেরিয়াল এবং সার্বক্ষণিক সাপোর্টের মাধ্যমে নিজের প্রস্তুতিকে করো ১০০% নিশ্চিত।",
