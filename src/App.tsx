@@ -2,6 +2,7 @@ import { Hero } from "./components/Hero";
 import { TrustBar } from "./components/TrustBar";
 import { CourseVideo } from "./components/CourseVideo";
 import { Services } from "./components/Services";
+import { Mentors } from "./components/Mentors";
 import { Gallery } from "./components/Gallery";
 import { RegistrationSection } from "./components/RegistrationSection";
 import { Footer } from "./components/Footer";
@@ -22,13 +23,16 @@ export default function App() {
       {/* 4. Course Services */}
       <Services />
 
-      {/* 5. Course Gallery */}
+      {/* 5. Lead Mentors */}
+      <Mentors />
+
+      {/* 6. Course Gallery */}
       <Gallery />
 
-      {/* 6. Registration */}
+      {/* 7. Registration */}
       <RegistrationSection />
 
-      {/* 7. Footer */}
+      {/* 8. Footer */}
       <Footer />
 
       {/* Floating WhatsApp Quick Action */}
