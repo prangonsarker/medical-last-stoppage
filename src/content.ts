@@ -4,7 +4,7 @@ import mentor2 from "./assets/mentor2.jpg";
 import mentor3 from "./assets/mentor3.jpg";
 import g1 from "./assets/g1.webp";
 import g2 from "./assets/g2.webp";
-import g3 from "./assets/g3.png";
+import g3 from "./assets/g3.g3.PNG";
 import g4 from "./assets/g4.jpg";
 import g5 from "./assets/g5.jpg";
 import g6 from "./assets/g6.webp";
