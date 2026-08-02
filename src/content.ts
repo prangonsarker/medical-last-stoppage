@@ -62,7 +62,7 @@ export const content = {
   courseVideo: {
     title: "কোর্স সম্পর্কে আরও জানুন",
     subtitle: "ভর্তি হওয়ার আগে ভিডিওটি দেখে নিন",
-    youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    youtubeUrl: "https://youtu.be/i8_5fCmI7Sw"
   },
 
   servicesSection: {
