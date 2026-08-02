@@ -2,6 +2,12 @@ import { img } from "motion/react-client";
 import mentor1 from "./assets/mentor1.png";
 import mentor2 from "./assets/mentor2.jpg";
 import mentor3 from "./assets/mentor3.jpg";
+import g1 from "./assets/g1.webp";
+import g2 from "./assets/g2.webp";
+import g3 from "./assets/g3.png";
+import g4 from "./assets/g4.jpg";
+import g5 from "./assets/g5.jpg";
+import g6 from "./assets/g6.webp";
 import image1 from "./assets/image1.jpg"
 export const content = {
   hero: {
@@ -195,45 +201,45 @@ export const content = {
 
   gallery: [
     {
-      title: "বায়োলজি হাই-ইল্ড ডায়াগ্রাম নোটস",
+      title: "ওয়ান টু ওয়ান মেন্টরশিপ প্রোগ্রাম",
       category: "বায়োলজি",
       description: "উদ্ভিদবিজ্ঞান ও প্রাণীবিজ্ঞানের জটিল টপিক সহজভাবে মনে রাখার বিশেষ ডায়াগ্রাম নোটস।",
-      image: "https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&q=80&w=800",
+      image: g1,
       alt: "Biology Diagram Notes"
     },
     {
-      title: "কোষ ও এর গঠন স্পেশাল ক্লাস",
+      title: "নিজের জুনিয়র হিসেবে নিজের স্টুডেন্ট আহা!",
       category: "বায়োলজি",
       description: "মেডিকেল ভর্তি পরীক্ষার জন্য অত্যন্ত গুরুত্বপূর্ণ বায়োলজি টপিক অ্যানালাইসিস।",
-      image: "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=800",
+      image: g2,
       alt: "Cell Biology Class"
     },
     {
-      title: "জৈব রসায়ন শর্টকাট নোটস",
+      title: " আগের বারে চান্স প্রাপ্ত দের সাথে লাইভ সেশন",
       category: "রসায়ন",
       description: "জৈব যৌগের নামকরণ ও বিক্রিয়ার সহজ কৌশল সংবলিত বিশেষ হ্যান্ডনোট।",
-      image: "https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?auto=format&fit=crop&q=80&w=800",
+      image: g3,
       alt: "Chemistry Organic Notes"
     },
     {
-      title: "রসায়নের পর্যায়বৃত্ত ধর্ম মাস্টারক্লাস",
+      title: "ইউ নিক স্টাইলে দাগানো বই",
       category: "রসায়ন",
       description: "মৌলের পর্যায়বৃত্ত ধর্ম ও রাসায়নিক বন্ধনের টেকনিক্যাল নোটস।",
-      image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&q=80&w=800",
+      image: g4,
       alt: "Chemistry Class"
     },
     {
-      title: "মেডিকেল ভর্তি কোশ্চেন ব্যাংক",
+      title: "Ultimate ১৪০০ প্রশ্ন যেখান থেকে আগের বার ৮৫% কমন এসেছিল",
       category: "স্টাডি ম্যাটেরিয়াল",
       description: "গত ২০ বছরের মেডিকেল ভর্তি পরীক্ষার ব্যাখ্যাসহ প্রশ্ন সমাধান গাইড।",
-      image: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&q=80&w=800",
+      image: g5,
       alt: "Medical Question Bank"
     },
     {
-      title: "প্রাইভেট Telegram গাইডেন্স গ্রুপ",
+      title: "আমার ক্লোস স্টুডেন্ট অনেক পটেনশিয়াল ওর",
       category: "কমিউনিটি",
       description: "২৪/৭ সাপোর্ট ও মেডিকেল ভর্তিচ্ছু বন্ধুদের সাথে সক্রিয় স্টাডি গ্রুপ।",
-      image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800",
+      image: g6,
       alt: "Private Telegram Group"
     }
   ],
@@ -331,8 +337,8 @@ export const content = {
   },
 
   floatingWhatsApp: {
-    tooltip: "হোয়াটসঅ্যাপে মেসেজ করুন",
-    ariaLabel: "WhatsApp-এ যোগাযোগ করুন"
+    tooltip: "হোয়াটসঅ্যাপে মেসেজ করুন",
+    ariaLabel: "whatsapp-এ যোগাযোগ করুন"
   },
 
   theme: {
